@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Unzip Android project
-        run: WorkshopManager_Full_Firebase_v4_fixed.zip
+        run: unzip -o WorkshopManager_Full_Firebase_v4_fixed.zip -d project
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
